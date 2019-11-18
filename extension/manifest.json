@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Milian Sync",
+    "version": "0.1",
+    "description": "A tab manager and real-time sync utility built with WebExtensions and Socket.io ⚡",
+    "background": {
+        "page": "background.html"
+    }
+}
