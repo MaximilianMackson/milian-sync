@@ -5,5 +5,11 @@
     "description": "A tab manager and real-time sync utility built with WebExtensions and Socket.io ⚡",
     "background": {
         "page": "background.html"
-    }
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "cookies",
+        "bookmarks"
+    ]
 }
